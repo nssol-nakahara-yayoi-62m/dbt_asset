@@ -1,0 +1,33 @@
+version: 2
+sources:
+  - name: tpch
+    description: source tpch data
+    database: EDU_DB
+    schema: WORK1
+    tables:
+      - name: area
+        description: area master
+
+      - name: customer_master
+        description: customer information
+
+      - name: item_category
+        description: item category master
+
+      - name: item_master
+        description: item information
+
+      - name: item_subcategory
+        description: item subcategory information
+
+      - name: sales
+        description: main sales information
+
+      - name: sales_detail
+        description: sales detail information
+
+      - name: store_master
+        description: store master
+
+      - name: time
+        description: calender master

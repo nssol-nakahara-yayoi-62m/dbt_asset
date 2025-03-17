@@ -1,0 +1,4 @@
+dbt-core==1.0.0
+dbt-snowflake==1.0.0  # Snowflakeを使用する場合
+pandas==1.3.3  # Pandasが必要な場合
+numpy==1.21.2  # Numpyが必要な場合
